@@ -1,0 +1,102 @@
+# ——— C/C++ артефакты сборки ———
+*.d
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.map
+*.exp
+
+# Отладочная информация и символьные таблицы
+*.pdb
+*.ilk
+*.idb
+*.dSYM/
+*.su
+
+# Профилирование и покрытия
+*.gcno
+*.gcda
+*.gcov
+*.prof
+*.profraw
+*.profdata
+gmon.out
+
+# ——— Директории сборки/кэши ———
+build/
+build-*/
+cmake-build-*/
+bin/
+obj/
+out/
+dist/
+.deps/
+.cache/
+
+# CMake артефакты
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Testing/
+CTestTestfile.cmake
+
+# (Опционально) база для clangd: раскомментируйте, если не хотите хранить в репо
+# compile_commands.json
+
+# ——— Инструменты/IDE ———
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+.cmake/
+
+# Qt / QtCreator
+*.pro.user*
+*.qbs.user*
+*.qrc.depends
+.qmake.stash
+
+# Visual Studio (минимум для C++)
+.vs/
+[Rr]elease/
+[Dd]ebug/
+[Bb]in/
+[Oo]bj/
+*.vcxproj.user
+
+# ——— Системные файлы ОС ———
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ——— Логи, дампы, прочее ———
+*.log
+core
+*.stackdump
+*.crash
+
+# ——— Архивы ———
+*.zip
+*.7z
+*.gz
+*.tar
+*.tgz
